@@ -1,0 +1,112 @@
+            * {
+			margin: 0;
+			padding: 0;
+			color: white;
+			}
+			.container {
+			padding: 0px 15px;
+			margin: 0 auto; <!-- отступ будет подобран автоматически -->
+			}
+			.header { <!-- меню (верхнее оглавление) -->
+			color: white;
+			padding: 20px;
+			background: url(image/bejevii.jpg);
+			}
+			.menu-item {
+			list-style: none;			<!-- чтобы исчезли точки (вспомнит маркированный список) -->
+			color: white;
+			}
+			.menu-link {
+			text-decoration:none; <!-- убирается нижнее подчеркивание при вводе ссылок -->
+			color: white;
+			padding: 0 5px;
+			}
+			.menu {
+			display: flex;
+			flex-direction: row;
+			}
+			.header-logo {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			}
+			.header-row {
+			display: flex;
+	        flex-direction: row;
+	        align-items: center;
+	        padding: 0 50px;
+			}
+			.banner-section {
+			background: url(image/grey.jpg);
+			padding: 100px 0;
+			background-size: cover;
+			
+			}
+			.header-row {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			}
+			.header-logo {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			flex-grow: 1;
+			}
+			.banner-text {
+			color: white;
+			text-align: center;
+			}
+			.banner-title {
+			font-size: 48px;
+			}
+			.footer {
+			background: url(image/bejevii.jpg);
+			background-size: cover;
+			padding: 100px 0;
+			}
+			.copyright {
+			color: white;
+			}
+			.logo-title {
+			color: white;
+			}
+			.header-menu {
+			color: white;
+			}
+			.cards-section {
+			padding: 50px 0;
+			}
+			.card-title, .cards-description {
+			color: #151c39;
+			text-align: center;
+			}
+			.card {
+			padding: 25px;
+			margin-top: 25px;
+			width: 25%;
+			background: white;
+			box-shadow: 0px 2px 7px #9e90ff;
+			text-align: center;
+			}
+			.card: hover {
+			box-shadow: 0px 10px 30px #9e90ff;
+			}
+			.card-link {
+			text-decoration: none;
+			color: white;
+			}
+			.card-button {
+			text-align: center;
+			background: #151c39;
+			padding: 10 px 70px;
+			border-radius: 10px;
+			}
+			.card-title, .card-text {
+			margin-bottom: 10px;
+			}
+			.cards-row {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			}

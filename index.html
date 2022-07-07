@@ -1,93 +1,13 @@
 <html>
 <head>
-    <style>
-	        * {
-			margin: 0;
-			padding: 0;
-			color: white;
-			}
-			.container {
-			padding: 0px 15px;
-			margin: 0 auto; <!-- отступ будет подобран автоматически -->
-			}
-			.header { <!-- меню (верхнее оглавление) -->
-			color: white;
-			padding: 20px;
-			background: url(bejevii.jpg);
-			background-size: cover;
-			}
-			.menu-item {
-			list-style: none;			<!-- чтобы исчезли точки (вспомнит маркированный список) -->
-			color: white;
-			}
-			.menu-link {
-			text-decoration:none; <!-- убирается нижнее подчеркивание при вводе ссылок -->
-			color: white;
-			}
-			.menu {
-			display: flex;
-			flex-direction: row;
-			}
-			.header-logo {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			}
-			.banner-section {
-			background: url(grey.jpg);
-			padding: 100px 0;
-			background-size: cover;
-			
-			}
-			.header-row {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			}
-			.header-logo {
-			display: flex;
-			flex-direction: row;
-			align-items: center;
-			flex-grow: 1;
-			}
-			.banner-text {
-			color: white;
-			text-align: center;
-			}
-			.banner-title {
-			font-size: 48px;
-			}
-			.logo-title {
-			color: white;
-			}
-			.header-menu {
-			color: white;
-			}
-			.card-title, .cards-description {
-			color: #151c39;
-			text-align: center;
-			}
-			.card {
-			padding: 25px;
-			margin-top: 25px;
-			width: 25%;
-			background: white;
-			box-shadow: 0px 2px 7px #9e90ff;
-			text-align: center;
-			}
-			.card: hover {
-			box-shadow: 0px 10px 30px #9e90ff;
-			}
-			.card-link {
-			}
-	</style>
+	    <link rel="stylesheet" href="style.css">
 </head>
 <body> <!-- START HEADER -->
 <header class="header"> <!-- меню (верхнее оглавление) -->
 	    <div class="container header-row">
 		    <!-- start block logo -->
 		    <div class="header-logo">
-			    <img src="C:\Users\sofi1\Downloads\cat.png" class="logo-img"></img>
+			    <img src="image\cat.png" class="logo-img"></img>
 				<h1 class="logo-title">CATS</h1>
 			</div>
 			<!-- start block menu -->
@@ -122,25 +42,54 @@
 	
 	 <section class="cards-section">
 	    <div class="container">
+	<div class="cards-text">		
 		    <h1 class="cards-title">Рекомендуемые животные!!!</h1>
 			<div class="cards-description">Специально для Вас!!!</div>
-		</div>
+	</div>
         
         <div class="cards">	
             <div class="cards-row">
                 <div class="card">
-                    <img class="card-img" src="images/Vasiliy.jpg">	
-                    <h3 class="card-title">Буйная кошка Коля</h3>
-                    <div class="card-text">Ищет буйных хозяев</div>
+                    <img class="card-img" src="image/Vasiliy.jpg">	
+                    <h3 class="card-title">Кот Василий</h3>
+                    <div class="card-text">Ищет добрых хозяев</div>
                     <div class="card-button">
                         <a class="card-link" href="#">Узнать подробности</a>
                     </div>
                 </div>
             </div>
-        </div>			
+        </div>
+        <div class="cards">	
+            <div class="cards-row">
+                <div class="card">
+                    <img class="card-img" src="image/Vasiliy.jpg">	
+                    <h3 class="card-title">Кот Василий</h3>
+                    <div class="card-text">Ищет добрых хозяев</div>
+                    <div class="card-button">
+                        <a class="card-link" href="#">Узнать подробности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cards">	
+            <div class="cards-row">
+                <div class="card">
+                    <img class="card-img" src="image/Vasiliy.jpg">	
+                    <h3 class="card-title">Кот Василий</h3>
+                    <div class="card-text">Ищет добрых хозяев</div>
+                    <div class="card-button">
+                        <a class="card-link" href="#">Узнать подробности</a>
+                    </div>
+                </div>
+            </div>
+        </div>		
 	 </section>
 	</main>
 	<footer class="footer"> <!--"подвал"-->
+	    <div class="container">
+		    <div class="copyright">
+			    Копирайт 2022. Все права защищены.
+			</div>
 	</footer>
 </body>
 </html>
